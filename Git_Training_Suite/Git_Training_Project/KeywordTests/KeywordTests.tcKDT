@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="EnterTextInNotepad" key="{4FDAEE48-DD44-45F3-90D5-3399ECE311BE}" path="EnterTextInNotepad.tcKDTest" />
+		<child name="OpenNotepad" key="{05DE5497-54F7-4BC7-9038-918E2B7DE634}" path="OpenNotepad.tcKDTest" />
+		<child name="CloseNotepad" key="{0B77A86C-AD76-4F27-8381-80F2E7EB1265}" path="CloseNotepad.tcKDTest" />
+	</children>
+</Root>

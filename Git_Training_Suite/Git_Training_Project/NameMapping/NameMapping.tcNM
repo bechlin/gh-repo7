@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{740BB3A3-19EF-40D4-BA94-879993D4020C}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="notepad" Key="{64E16F48-C9B4-4F8B-B456-82589F2AD930}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="notepad" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndNotepad" Key="{D2F5137E-BE2D-4D62-85D8-4BF9DD4E15E9}">
+								<Image FileName="-1773310578" Left="0" Top="0" Right="692" Bottom="525" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Notepad" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Edit" Key="{6E2EBBD6-9DF6-4EB2-9BB6-D3890690BFF8}">
+										<Image FileName="-1773310578" Left="8" Top="51" Right="684" Bottom="494" />
+										<TypeInfo Item0="{BEA4B81D-9367-49C1-B677-43A65E398DEC}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Edit" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgNotepad" Key="{8FCAAA4F-7695-4F14-AED1-513058B7A9B3}">
+								<Image FileName="-884221403" Left="0" Top="0" Right="366" Bottom="141" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Notepad" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DirectUIHWND" Key="{86EC0628-3FDA-487D-8B88-DD7775442926}">
+										<Image FileName="-884221403" Left="8" Top="31" Right="358" Bottom="133" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="DirectUIHWND" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="CtrlNotifySink" Key="{50F0F908-E31E-4820-AEEB-3CFDC2C3CFA4}">
+												<Image FileName="-884221403" Left="178" Top="101" Right="270" Bottom="124" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="CtrlNotifySink" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="8" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="btnDontSave" Key="{60BDE30D-32D3-44EE-BB51-1B1ED2C4EC04}">
+														<Image FileName="-884221403" Left="178" Top="101" Right="270" Bottom="124" />
+														<TypeInfo Item0="{719E5EE7-2000-46F0-AA02-9EBF73DEF6F4}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Do&amp;n&apos;t Save" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="notepad" Owner="{64E16F48-C9B4-4F8B-B456-82589F2AD930}">
+			<Child Name="wndNotepad" Owner="{D2F5137E-BE2D-4D62-85D8-4BF9DD4E15E9}">
+				<Child Name="Edit" Owner="{6E2EBBD6-9DF6-4EB2-9BB6-D3890690BFF8}" />
+			</Child>
+			<Child Name="dlgNotepad" Owner="{8FCAAA4F-7695-4F14-AED1-513058B7A9B3}">
+				<Child Name="DirectUIHWND" Owner="{86EC0628-3FDA-487D-8B88-DD7775442926}">
+					<Child Name="CtrlNotifySink" Owner="{50F0F908-E31E-4820-AEEB-3CFDC2C3CFA4}">
+						<Child Name="btnDontSave" Owner="{60BDE30D-32D3-44EE-BB51-1B1ED2C4EC04}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

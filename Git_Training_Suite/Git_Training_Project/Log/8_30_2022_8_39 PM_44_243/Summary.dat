@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="durationwithoutchildren" type="I" value="313"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA4ADgARABGADQANgAxAEMALQA5AEEARAA4AC0ANAA5ADkANAAtADkAMQBEADQALQA3AEEANwBGADEAMwA1AEEANAAzADMAMAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="44803.8609384375"/>
+						<Prp name="name" type="S" value="EnterTextInNotepad"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="313"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="durationwithoutchildren" type="I" value="2383"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2ADQAOAA2AEUAMAA0ADYALQBBAEUAOAA0AC0ANABFAEYANwAtADkAMgAzADMALQBBAEUAMABEAEYAOQA1AEQAQgBBADAAQgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="44803.8609421296"/>
+						<Prp name="name" type="S" value="CloseNotepad"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="2383"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="durationwithoutchildren" type="I" value="651"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzADgARgAwAEQAMwA4ADIALQA4ADUAMAAwAC0ANAA5AEMAQQAtAEIAQQBDAEUALQAzADUAQwA1ADgAOQA4ADQARQAwAEMARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="44803.8609308333"/>
+						<Prp name="name" type="S" value="OpenNotepad"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="651"/>
+					</Node>
+				</Node>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="44803.8609308333"/>
+				<Prp name="name" type="S" value="Git_Training_Project"/>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="3347"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="tests" type="I" value="3"/>
+		<Prp name="user" type="S" value="krishna.kumar1"/>
+		<Prp name="testname" type="S" value="Git_Training_Project"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="stop" type="D" value="44803.8609735417"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="44803.860928831"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="key" type="S" value="{9AB0DB88-4FFE-4178-B8DF-9EDCBBD6367D}"/>
+		<Prp name="host" type="S" value="NITRVSP231LT"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="name" type="S" value="Git_Training_Suite"/>
+	</Node>
+</Nodes>
